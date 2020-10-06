@@ -1,2 +1,2 @@
 ### ezPopup
-My first JavaScript plugin made for helping you make quick page pop-ups and modals.
+Create quick page pop-ups and modals with little to none js knowledge
