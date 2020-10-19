@@ -16,7 +16,7 @@ Be sure to add them to all the pages you want to use the plugin on, add the CSS 
 
 #### 1. Link your own local .js file and create a new object of the ezPopup class:
 
-    let variableName = new ezPopup({
+    var variableName = new ezPopup({
      // Leaving blank will automatically override with the default options
     });
 
