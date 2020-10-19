@@ -23,7 +23,7 @@ Be sure to add them to all the pages you want to use the plugin on, add the CSS 
 #### 2. Add content you want to appear in your popup either manually inside the 'content' value **or** referring from a HTML block:
 ### Manually insert:
      
-    let variableName = new ezPopup({     
+    var variableName = new ezPopup({     
         content: 'content to appear in my popup'
      });
 
@@ -39,8 +39,8 @@ Naturally, you will be able to achieve much more advanced content in your popup 
 
 Then assign the HTML block to the content value inside the ezPopup object:
  
-    let a = document.getElementById('test'); 
-    let variableName = new ezPopup({ content: a })
+    var a = document.getElementById('test'); 
+    var variableName = new ezPopup({ content: a })
 
 #### 3.  Attach a trigger so your popup knows when to pop-up:
 
@@ -67,7 +67,7 @@ Then attach any event listener you like:
 
 Here's the current full list of options you can play around with:
 
-    let variableName = new ezPopup({  
+    var variableName = new ezPopup({  
   
         // core / basic 
 
