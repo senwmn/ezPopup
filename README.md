@@ -74,7 +74,6 @@ Here's the current full list of options you can play around with:
         minWidth: 200, -> Sets the min width the popup is allowed to be, takes a number value
         maxWidth: 800, -> Sets the max width the popup is allowed to be, takes a number value
         
-
         // asthetics
 
         color: '#fff', -> Sets the primary text colour inside the popup area
@@ -84,23 +83,12 @@ Here's the current full list of options you can play around with:
         overlayOpacity: 0.6, -> Sets the overlay opacity
         spacing: 35, -> Sets the active padding between the content and content box, can use % based value if given as a string,
         flow: 'left', -> Sets the direction the content will flow
-        animation: true || 'string-value', -> Applies a CSS animation to the popup, if left on true or unset, default is applied (from top). 
-                                              Currently there are only a few animations that come ready to go, you could always write your own 
-                                              css keyframe style animations or use JS library, I'd recommend GSAP
-
+       
         // conditionals & misc
      
         name: 'winter-promo', -> passes this value to the active popup as an ID, incase you want to do any of your own extra styling/ editing
-        type: 'simple', -> There are currently 4 types of popup that i've built, depending on the type you set, there will be some bespoke 
-                           elements that only belong in certain types. 'simple (default)', 'yesno or yn', 'warning' and 'promo'
-        theme: 'none' || false, -> There are currently 4 themes that can be applied for a quick ready made styling a feel. 
-                                   'positive','negative' and 'neutral'
-        optionOne: 'Yes', -> Will only be accepted by the plugin if you have 'yesno' type set, sets the label for boolean option 1 and ID
-        optionTwo: 'No', -> -> Will only be accepted by the plugin if you have 'yesno' type set, sets the label for boolean option 2 and ID
-        enableScrollTrigger: false, -> If set to true you can allow for the popup to open on scroll
-        scrollTrigger: 300, -> The offest from the top of the page or target element, when the viewport reaches, the popup will open
-        delay: 0 || false -> Set a delay for the time it takes the popup to open
-        
+        value1: 'Yes', -> Will only be accepted by the plugin if you have 'yesno' type set, sets the label for boolean option 1 and ID
+        value2: 'No', -> -> Will only be accepted by the plugin if you have 'yesno' type set, sets the label for boolean option 2 and ID        
      });
 
 #### You may also find a few of these methods could be useful:
