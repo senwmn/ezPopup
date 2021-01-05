@@ -97,3 +97,7 @@ Here's the current full list of options you can play around with:
     variableName.close() -> close the popup, automatically bound to the close button, but you can also add to other elements
     variableName.empty() -> Removes the current content inside the popup
     variableName.change('text has changed') -> Changes the current content inside the popup, can take a string or JS variabe
+    
+    
+    
+This was built for fun, and I may add more features in the future.
