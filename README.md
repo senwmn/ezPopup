@@ -2,12 +2,8 @@
 Welcome to the ezPopup guide, I hope you enjoy and find my plugin useful.
 
 ### Getting started
-To include ezPopup in your web project, simply add the following hosted links:
 
-CSS => https://bit.ly/3jx51Oh  
-JS =>  https://bit.ly/3d7dDbR
-
-Or alternatively **[download](https://github.com/senwmn/ezPopup/archive/main.zip) a clone** of this project and manually link them in your project.
+ **[download](https://github.com/senwmn/ezPopup/archive/main.zip) a clone** of this project and manually link them in your project.
 
 Be sure to add them to all the pages you want to use the plugin on, add the CSS in the head and the script below the closing body tag. Its also a good idea to load the script for this plugin before your own local script file.
 
